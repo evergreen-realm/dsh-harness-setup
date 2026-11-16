@@ -1,0 +1,20 @@
+{
+  "name": "dsh-profile-desktop",
+  "private": true,
+  "dependencies": {
+    "@evergreen-realm/dsh-memory-plugin": "link:{{PLUGIN_PATH}}"
+  },
+  "dsh": {
+    "profile": {
+      "bundles": [
+        "@deepseek-ai/dsh-base",
+        "@deepseek-ai/dsh-web-app",
+        "@evergreen-realm/dsh-memory-plugin",
+        "@deepseek-ai/dsh-experimental-agent-team-profile",
+        "@deepseek-ai/dsh-experimental-forge-bundle",
+        "@deepseek-ai/dsh-experimental-auto-review",
+        "@deepseek-ai/dsh-experimental-plugin-market-bundle"
+      ]
+    }
+  }
+}

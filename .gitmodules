@@ -1,0 +1,3 @@
+[submodule "plugins/dsh-memory-plugin"]
+	path = plugins/dsh-memory-plugin
+	url = https://github.com/evergreen-realm/dsh-memory-plugin.git
